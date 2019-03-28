@@ -4,14 +4,14 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Itai and Jenny Health Project Topics</title>
+	<title>Itai and Jenny Health Project</title>
 	<link href="http://itaiandjennyhealth.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://itaiandjennyhealth.github.io/blog"/>
+	<link href="http://itaiandjennyhealth.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://itaiandjennyhealth.github.io/blog</id>
 	<author>
-		<name>Itai Cruz and Jenny Mata</name>
-		<email>hankquinlanhub@gmail.com</email>
+		<name>Itai-Cruz-Jenny-Mata</name>
+		<email>jennym7907@afsenyc.org</email>
 	</author>
 
 	{% for post in site.posts %}
@@ -25,3 +25,4 @@ layout: feed
 	{% endfor %}
 
 </feed>
+
